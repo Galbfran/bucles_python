@@ -22,6 +22,16 @@ sumatoria = 0  # Inicializo el contador en 0
 
 # for ... in range(....)
 
+if inicio < fin:
+    for numero in range( inicio, fin +1):
+        sumatoria = sumatoria + numero
+    
+    print("La suma del rengo de numeros es :", sumatoria)
+
+else:
+    print("El primer numero ingresado tiene que ser menor al segundo numero ingresado")
+
+
 # Imprimir el valor de la sumatoria
 
 print("terminamos!")
